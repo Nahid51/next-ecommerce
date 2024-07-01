@@ -31,13 +31,18 @@ const CartModal = () => {
                                     <div className="text-sm text-gray-500">available</div>
                                 </div>
                                 <div className="flex items-center justify-between text-sm mt-4">
-                                    <span className="text-gray-500">Qty. 1</span>
-                                    <span className="text-blue-500">Remove</span>
+                                    <p className="text-gray-500">Qty. 1</p>
+                                    <button className="text-blue-500">Remove</button>
                                 </div>
                             </div>
                         </div>
                         <div className="flex gap-4">
-                            <Image src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" width={72} height={96} className=" object-cover rounded-md" />
+                            <Image
+                                src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image"
+                                width={72}
+                                height={96}
+                                className=" object-cover rounded-md"
+                            />
                             <div className="flex flex-col justify-between w-full">
                                 <div className="">
                                     <div className="flex items-center justify-between gap-8">
@@ -47,11 +52,12 @@ const CartModal = () => {
                                     <div className="text-sm text-gray-500">available</div>
                                 </div>
                                 <div className="flex items-center justify-between text-sm mt-4">
-                                    <span className="text-gray-500">Qty. 1</span>
-                                    <span className="text-blue-500">Remove</span>
+                                    <p className="text-gray-500">Qty. 1</p>
+                                    <button className="text-blue-500">Remove</button>
                                 </div>
                             </div>
                         </div>
+
 
                         {/* bottom */}
                         <div className="">
