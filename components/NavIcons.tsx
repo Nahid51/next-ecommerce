@@ -9,10 +9,10 @@ const NavIcons = () => {
     const [isProfileOpen, setIsProfileOpen] = useState(false);
     const [isCartOpen, setIsCartOpen] = useState(false);
     const router = useRouter();
-    const isLoggesIn = false;
+    const isLoggedIn = false;
 
     const handleProfile = () => {
-        if (!isLoggesIn) {
+        if (!isLoggedIn) {
             router.push("/login");
         }
         setIsProfileOpen((prev) => !prev)
