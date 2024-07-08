@@ -1,5 +1,4 @@
 "use client";
-
 import { products } from "@wix/stores";
 import { useEffect, useState } from "react";
 import Add from "./Add";
@@ -87,7 +86,7 @@ const CustomizeProducts = ({
                                 </li>
                             ) : (
                                 <li
-                                    className="ring-1 ring-lama text-lama rounded-md py-1 px-4 text-sm"
+                                    className="ring-1 ring-ecom text-ecom rounded-md py-1 px-4 text-sm"
                                     style={{
                                         cursor: disabled ? "not-allowed" : "pointer",
                                         backgroundColor: selected
